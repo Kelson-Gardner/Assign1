@@ -19,8 +19,8 @@ public class Assign1 {
     public static void printHelpMessage(){
         System.out.println("--- Assign 1 Help ---");
         System.out.println("  -fib [n] : Compute the Fibonacci of [n]; valid range [0, 40]");
-        System.out.println("  -fac [n] : Compute the factorial of [n]; valid range, [0, 2,147,483,647]");
-        System.out.println("  -e [n] : Compute the value of 'e' using [n] iterations; valid range [1, 2,147,483,647]");
+        System.out.println("  -fac [n] : Compute the factorial of [n]; valid range, [0, 2147483647]");
+        System.out.println("  -e [n] : Compute the value of 'e' using [n] iterations; valid range [1, 2147483647]");
     }
 
     /**
@@ -114,12 +114,12 @@ public class Assign1 {
                     try {
                         int number = Integer.parseInt(args[i + 1]);
                         if (number < 0) {
-                            System.out.println("Factorial valid range is [0, 2,147,483,647]");
+                            System.out.println("Factorial valid range is [0, 2147483647]");
                         } else {
                             System.out.println("Factorial of " + number + " is " + factorial(number));
                         }
                     } catch (NumberFormatException e) {
-                        System.out.println("Please enter a valid input for factorial calculation. Integer from range [0, 2,147,483,647]");
+                        System.out.println("Please enter a valid input for factorial calculation. Integer from range [0, 2147483647]");
                     }
                 }
                 case "-e" -> {
@@ -129,12 +129,12 @@ public class Assign1 {
                         decimalFormat.setMaximumFractionDigits(16);
 
                         if(number < 1){
-                            System.out.println("Valid e iterations range is [1, 2,147,483,647]");
+                            System.out.println("Valid e iterations range is [1, 2147483647]");
                         } else {
                             System.out.println("Value of e using " + number + " iterations is " + decimalFormat.format(valueOfE(number)));
                         }
                     } catch (NumberFormatException e){
-                        System.out.println("Please enter a valid input for e iterations. Integer from range [0, 2,147,483,647]");
+                        System.out.println("Please enter a valid input for e iterations. Integer from range [0, 2147483647]");
                     }
                 }
                 default -> System.out.println("Unknown command line argument: " + args[i]);
