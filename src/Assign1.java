@@ -1,18 +1,17 @@
-/**
- * @author Kelson Gardner
- *
- * Assign1 class allows users to enter in command line arguments to
- * run specific functions (fibonacci, factorial, iterations of e) with
- * specific values they desire.
- */
-
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.math.MathContext;
 import java.text.DecimalFormat;
 
+/**
+ * @author Kelson Gardner
+ * Assign1 class allows users to enter in command line arguments to
+ * run specific functions (fibonacci, factorial, iterations of e) with
+ * specific values they desire.
+ */
 public class Assign1 {
     /**
+     * @author Kelson Gardner
      * Prints the help message if there are no command line arguments
      * or an invalid amount of command line arguments.
      */
@@ -24,6 +23,7 @@ public class Assign1 {
     }
 
     /**
+     * @author Kelson Gardner
      * Calculates the fibonacci of a number entered by the user
      *
      * @param number value specified by the user
@@ -40,6 +40,7 @@ public class Assign1 {
     }
 
     /**
+     * @author Kelson Gardner
      * Calculates the factorial of a number entered by the user
      *
      * @param number value specified by user
@@ -54,6 +55,7 @@ public class Assign1 {
     }
 
     /**
+     * @author Kelson Gardner
      * Calculates the factorial of a number for the valueOfE function
      * since the original factorial function returns a BigInteger
      * and you cannot cast from a BigInteger to BigDecimal.
@@ -70,10 +72,11 @@ public class Assign1 {
     }
 
     /**
+     * @author Kelson Gardner
      * Calculates the value of E to the specific number of iterations entered in by user
      *
      * @param number value specified by user
-     * @return value of e with num amount of calculations
+     * @return value of e with num amount of iterations
      */
     private static BigDecimal valueOfE(int number){
         BigDecimal value = BigDecimal.ONE;
@@ -85,6 +88,7 @@ public class Assign1 {
     }
 
     /**
+     * @author Kelson Gardner
      * Main function that delegates the input from the command line to
      * run specific methods within the class.
      *
