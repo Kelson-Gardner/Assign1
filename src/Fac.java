@@ -1,6 +1,6 @@
 import java.math.BigInteger;
 
-public class Factorial {
+public class Fac {
     /**
      * @author Kelson Gardner
      * Calculates the factorial of a number entered by the user

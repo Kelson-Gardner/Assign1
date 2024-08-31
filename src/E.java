@@ -1,7 +1,7 @@
 import java.math.BigDecimal;
 import java.math.MathContext;
 
-public class ValueOfE {
+public class E {
     /**
      * @author Kelson Gardner
      * Calculates the factorial of a number for the valueOfE function

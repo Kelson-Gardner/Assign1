@@ -1,4 +1,4 @@
-public class Fibonacci {
+public class Fib {
     /**
      * @author Kelson Gardner
      * Calculates the fibonacci of a number entered by the user
