@@ -11,7 +11,7 @@ public class E {
      * @param number value specified by user
      * @return factorial calculation for number given by user
      */
-    private static BigDecimal factorialForE(int number){
+    private BigDecimal factorialForE(int number){
         BigDecimal product = BigDecimal.ONE;
         for(int i = 2; i <= number; i++){
             product = product.multiply(BigDecimal.valueOf(i));
@@ -26,7 +26,7 @@ public class E {
      * @param number value specified by user
      * @return value of e with num amount of iterations
      */
-    private static BigDecimal valueOfE(int number){
+    public BigDecimal valueOfE(int number){
         BigDecimal value = BigDecimal.ONE;
         for(int i = 1; i < number; i++){
             BigDecimal adder = BigDecimal.ONE.divide(factorialForE(i), MathContext.DECIMAL128);

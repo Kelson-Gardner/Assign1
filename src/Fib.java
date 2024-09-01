@@ -6,7 +6,7 @@ public class Fib {
      * @param number value specified by the user
      * @return fibonacci calculation for number given by user
      */
-    private static int fibonacci(int number){
+    public int fibonacci(int number){
         if(number == 0){
             return 0;
         }
