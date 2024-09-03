@@ -1,4 +1,9 @@
 public class ActionFactory {
+    /**
+     * Factory for creating different actions
+     * @param input input from user
+     * @return an action object
+     */
     public ActionStrategy createAction(String input){
         switch(input){
             case "-fib" -> {

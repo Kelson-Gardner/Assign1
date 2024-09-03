@@ -16,6 +16,10 @@ public class Fac implements ActionStrategy {
         return product;
     }
 
+    /**
+     * Execute method that runs the factorial method and prints out the results
+     * @param input input from user
+     */
     @Override
     public void execute(String input){
         try {

@@ -35,6 +35,11 @@ public class E implements ActionStrategy {
         }
         return value;
     }
+
+    /**
+     * Execute method that runs the valueOfE method and prints out the results.
+     * @param input input from user
+     */
     @Override
     public void execute(String input){
         try{

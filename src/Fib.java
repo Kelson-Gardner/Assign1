@@ -16,6 +16,10 @@ public class Fib implements ActionStrategy {
         return fibonacci(number - 1) + fibonacci(number - 2);
     }
 
+    /**
+     * Execute method that runs the fibonacci method and prints out the results.
+     * @param input input entered by the user
+     */
     @Override
     public void execute(String input){
         try {
