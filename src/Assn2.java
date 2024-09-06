@@ -1,6 +1,6 @@
 /**
  * @author Kelson Gardner
- * Assign1 class allows users to enter in command line arguments to
+ * Assign2 class allows users to enter in command line arguments to
  * run specific functions (fibonacci, factorial, iterations of e) with
  * specific values they desire.
  */
