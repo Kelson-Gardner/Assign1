@@ -1,3 +1,8 @@
+/**
+ * @author Kelson Gardner
+ * The Help class generates a help message
+ * when there are no arguments or an invalid number of arguments
+ */
 public class Help {
     /**
      * @author Kelson Gardner
