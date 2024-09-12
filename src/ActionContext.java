@@ -1,6 +1,11 @@
+/**
+ * @author Kelson Gardner
+ * Action context class for the strategy pattern and polymorphism
+ */
 public class ActionContext {
     private ActionStrategy actionsStrategy;
     /**
+     * @author Kelson Gardner
      * Sets the specific strategy for the action context and
      * takes advantage of the strategy pattern and
      * polymorphism.
@@ -11,6 +16,7 @@ public class ActionContext {
     }
 
     /**
+     * @author Kelson Gardner
      * Runs the execute function on the action specified by setStrategy;
      * @param input input from user
      */
