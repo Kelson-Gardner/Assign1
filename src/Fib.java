@@ -1,3 +1,7 @@
+/**
+ * @author Kelson Gardner
+ * The Fib class generates the fibonacci based off of user input
+ */
 public class Fib implements ActionStrategy {
     /**
      * @author Kelson Gardner
