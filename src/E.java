@@ -2,6 +2,10 @@ import java.math.BigDecimal;
 import java.math.MathContext;
 import java.text.DecimalFormat;
 
+/**
+ * @author Kelson Gardner
+ * The E class generates the value of e based on a number of iterations from user input
+ */
 public class E implements ActionStrategy {
     /**
      * @author Kelson Gardner
@@ -37,6 +41,7 @@ public class E implements ActionStrategy {
     }
 
     /**
+     * @author Kelson Gardner
      * Execute method that runs the valueOfE method and prints out the results.
      * @param input input from user
      */
