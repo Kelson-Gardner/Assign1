@@ -10,7 +10,7 @@ public class Help {
      * or an invalid amount of command line arguments.
      */
     public void printHelpMessage(){
-        System.out.println("--- Assign 1 Help ---");
+        System.out.println("--- Assn 2 Help ---");
         System.out.println("  -fib [n] : Compute the Fibonacci of [n]; valid range [0, 40]");
         System.out.println("  -fac [n] : Compute the factorial of [n]; valid range, [0, 2147483647]");
         System.out.println("  -e [n] : Compute the value of 'e' using [n] iterations; valid range [1, 2147483647]");

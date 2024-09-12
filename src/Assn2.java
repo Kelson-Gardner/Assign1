@@ -1,6 +1,6 @@
 /**
  * @author Kelson Gardner
- * Assign2 class allows users to enter in command line arguments to
+ * Assn2 class allows users to enter in command line arguments to
  * run specific functions (fibonacci, factorial, iterations of e) with
  * specific values they desire.
  */
@@ -25,7 +25,11 @@ public class Assn2 {
 
         for(int i = 0; i < args.length; i += 2){
             actions.setStrategy(factory.createAction(args[i]));
-            actions.run(args[i + 1]);
+            if(actions.getStrategy().getClass().getName().equals("InvalidAction")){
+                actions.run(args[i]);
+            } else {
+                actions.run(args[i + 1]);
+            }
             }
         }
     }

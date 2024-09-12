@@ -17,6 +17,14 @@ public class ActionContext {
 
     /**
      * @author Kelson Gardner
+     * Returns the specific strategy used
+     */
+    public ActionStrategy getStrategy(){
+        return this.actionsStrategy;
+    }
+
+    /**
+     * @author Kelson Gardner
      * Runs the execute function on the action specified by setStrategy;
      * @param input input from user
      */
