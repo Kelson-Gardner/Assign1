@@ -1,5 +1,9 @@
 import java.math.BigInteger;
 
+/**
+ * @author Kelson Gardner
+ * The Fac class generates the factorial of a number based on user input
+ */
 public class Fac implements ActionStrategy {
     /**
      * @author Kelson Gardner
@@ -17,6 +21,7 @@ public class Fac implements ActionStrategy {
     }
 
     /**
+     * @author Kelson Gardner
      * Execute method that runs the factorial method and prints out the results
      * @param input input from user
      */
